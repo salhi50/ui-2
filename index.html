@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/wspace.css">
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <title>UI Design-2</title>
+  <meta name="description" content="Dicover top 100 UI design for the web developement">
+  <meta property="og:title" content="100 UI design">
+  <meta property="og:description" content="Discover the best ui design for web developement">
+</head>
+    <body style="background-color: var(--light-bg);">
+        <!-- ///// header ///// -->
+        <header>
+            <div class="container">
+                <ul class="up--menu flex flex-between align-center">
+                    <li class="up--menu-left">
+                        <a href="" class="up--menu-left-logo">
+                            <span class="up--menu-j-letter">J</span>
+                            <span class="up--menu-h-letter">H</span>
+                        </a>
+                        <a href="" class="up--menu-left-link d-hidden active pdr-15">Jobs</a>
+                        <a href="" class="up--menu-left-link pdr-15 d-hidden">Resumes</a>
+                        <a href="" class="up--menu-left-link pdr-15 d-hidden">Companies</a>
+                        <a href="" class="up--menu-left-link pdr-15 d-hidden">Post a job</a>
+                    </li>
+                    <li class="up--menu-right">
+                        <a href="" class="up--menu-right-email">
+                            <ion-icon name="mail-outline" class="up--menu-right-icon"></ion-icon>
+                        </a>
+                        <a href="" class="up--menu-right-notifications mgl-half-1rem">
+                            <ion-icon name="notifications-outline" class="up--menu-right-icon active relative"></ion-icon>
+                        </a>
+                        <a href="" class="up--menu-right-profil d-hidden mgl-half-1rem" style="background-image: url('images/profil.jpg');"></a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+        <main>
+        <!-- ///// up section ///// -->
+        <section class="up--page relative">
+            <div class="up--page-circle-1 absolute"></div>
+            <div class="up--page-circle-2 absolute"></div>
+            <div class="up--page-circle-3 absolute"></div>
+            <div class="up--page-circle-4 absolute"></div>
+            <div class="up--page-circle-5 absolute"></div>
+            <div class="up--page-circle-6 absolute"></div>
+            <div class="container pdy-20 flex align-center">
+                <div class="up--page-title div-70 res-div-100">
+                    <h1 class="capital up--page-big-heading">find your dream job</h1>
+                </div>
+                <div class="up--page-img div-30 d-hidden" style="background-image: url('images/girl.png');">
+                </div>
+            </div>
+        </section>
+        <section class="search">
+            <div class="container">
+                <div class="search-container flex align-center full-width flex-wrap">
+                <div class="search--left relative fl-1 res-div-100">
+                    <ion-icon name="search-outline" class="search--left-icon abs-icon-left"></ion-icon>
+                    <input type="search" name="" class="search--left-input full-width pd-input-abs" placeholder="Search..." id="">
+            </div>
+            <div class="search--right pdx-10 fl-1 flex align-center flex-between res-mgt-half-1rem">
+                <div class="search--right-location flex align-center">
+                    <ion-icon name="location-outline" class="search--right-location-icon d-inflex pdx-5"></ion-icon>
+                    <p class="search--right-location-info d-inflex pdl-5 line-clamp pdr-10">FES, Morocco</p>
+                </div>
+                <div class="search--right-button">
+                    <button class="main-btn btn">Search</button>
+                </div>
+            </div>
+        </div>
+            </div>
+        </section>
+        <!-- ///// main section ///// -->
+        <section class="jobs mgt-2rem">
+            <div class="container flex">
+<!-- ///// aside filter ///// -->
+            <aside id="aside" class="jobs--filter div-20 self-start relative">
+                <i class="fa fa-times absolute tr-pos-initial pdr-20 pdy-15 s-hidden" id="close-aside"></i>
+                <div class="jobs--filter-type">
+                    <h6 class="jobs--filter-small-heading pdb-15">
+                        Job Type
+                    </h6>
+                    <ul class="jobs--filter-type-menu mgb-2rem">
+                        <li class="jobs--filter-type-item mgb-half-1rem">
+                            <input type="checkbox" name="" id="" class="checkbox d-inflex cursor">
+                            <p class="jobs--filter-type-info mgl-half-1rem capital d-inflex">Full Time Job</p>
+                        </li>
+                        <li class="jobs--filter-type-item mgb-half-1rem">
+                            <input type="checkbox" name="" id="" class="checkbox d-inflex cursor">
+                            <p class="jobs--filter-type-info mgl-half-1rem capital d-inflex">part Time Job</p>
+                        </li>
+                        <li class="jobs--filter-type-item mgb-half-1rem">
+                            <input type="checkbox" name="" id="" class="checkbox d-inflex cursor">
+                            <p class="jobs--filter-type-info mgl-half-1rem capital d-inflex">intership Job</p>
+                        </li>
+                        <li class="jobs--filter-type-item mgb-half-1rem">
+                            <input type="checkbox" name="" id="" class="checkbox d-inflex cursor">
+                            <p class="jobs--filter-type-info mgl-half-1rem capital d-inflex">remote Job</p>
+                        </li>
+                        <li class="jobs--filter-type-item mgb-half-1rem">
+                            <input type="checkbox" name="" id="" class="checkbox d-inflex cursor">
+                            <p class="jobs--filter-type-info mgl-half-1rem capital d-inflex">contract</p>
+                        </li>
+                    </ul>
+                    <h6 class="jobs--filter-small-heading pdb-15">
+                        Salary
+                    </h6>
+                    <div class="jobs--filter-salary mgb-2rem">
+                        <div class="jobs--filter-salary-prices flex flex-between mgb-half-1rem">
+                            <span class="jobs--filter-salary-price">$200</span>
+                            <span class="jobs--filter-salary-price">$4960</span>
+                        </div>
+                        <div class="jobs--filter-salary-range pdl-30 relative">
+                            <div class="jobs--filter-salary-line-range"></div>
+                            <div class="jobs--filter-salary-circle-1 absolute"></div>
+                            <div class="jobs--filter-salary-circle-2 absolute"></div>
+                        </div>
+                    </div>
+                    <h6 class="jobs--filter-small-heading pdb-15">
+                        Experience Level
+                    </h6>
+                    <ul class="jobs--filter-type-menu">
+                        <li class="jobs--filter-type-item mgb-half-1rem">
+                            <input type="checkbox" name="" id="" class="checkbox d-inflex cursor">
+                            <p class="jobs--filter-type-info mgl-half-1rem capital d-inflex">Entry/Junior</p>
+                        </li>
+                        <li class="jobs--filter-type-item mgb-half-1rem">
+                            <input type="checkbox" name="" id="" class="checkbox d-inflex cursor">
+                            <p class="jobs--filter-type-info mgl-half-1rem capital d-inflex">Middle</p>
+                        </li>
+                        <li class="jobs--filter-type-item mgb-half-1rem">
+                            <input type="checkbox" name="" id="" class="checkbox d-inflex cursor">
+                            <p class="jobs--filter-type-info mgl-half-1rem capital d-inflex">Senior</p>
+                        </li>
+                    </ul>
+                </div>
+            </aside>
+            <!-- ///// main content ///// -->
+            <article class="jobs--content div-80 res-div-100">
+                <div class="jobs--content-container">
+                    <div class="up--jobs-content flex flex-between align-center mgb-1rem">
+                        <p class="up--jobs-result">68 results</p>
+                        <div class="up--jobs-filter flex align-center">
+                            <ion-icon name="filter-outline" class="up--jobs-filter-icon d-inflex d-hidden"></ion-icon>
+                            <p class="up--jobs-filter-txt d-inflex pdl-10 d-hidden">Filter</p>
+                            <ion-icon name="filter-outline" class="up--jobs-filter-icon d-inflex s-hidden" id="show-aside"></ion-icon>
+                        </div>
+                    </div>
+                    <div class="jobs--content-boxes">
+                        <div class="jobs--content-main-box pdx-20 pdy-15 white-bg rounded mgb-1h5rem">
+                            <div class="jobs--content-up-box flex flex-between flex-wrap">
+                                <div class="jobs--content-up-left-box flex align-center res-div-100">
+                                    <div class="jobs--content-left-avatar dribble shrink-none flex align-center justify-center">
+                                        <i class="fab fa-dribbble"></i>
+                                    </div>
+                                    <div class="jobs--content-left-details pdl-15">
+                                        <h6 class="jobs--content-left-heading">Senior UX Designer</h6>
+                                        <p class="jobs--content-left-txt line-clamp">Dribble</p>
+                                    </div>
+                                </div>
+                                <div class="jobs--content-up-right-box res-div-100 res-mgt-half-1rem">
+                                    <span class="fw-500">$3k - $5k</span>
+                                </div>
+                            </div>
+                            <div class="jobs--content-box-description mgy-1rem">UX designers measure and optimise applications to improve ease of use (usability), and create the best user experience by exploring many different approaches to solve end-users problems</div>
+                            <div class="jobs--content-down-box mgt-4 flex align-center flex-between">
+                                <div class="jobs--content-box-tags-list flex align-center flex-wrap pdr-15">
+                                    <span class="jobs--content-box-tag mgt-6 mgb-6 mgr-6">Remote</span>
+                                    <span class="jobs--content-box-tag mgr-6 mgt-6 mgb-6">Full Time</span>
+                                    <span class="jobs--content-box-tag mgt-6 mgb-6">UX</span>
+                                </div>
+                                <div class="jobs--content-date-box">11 Jan, 2022</div>
+                            </div>
+                        </div>
+                        <div class="jobs--content-main-box pdx-20 pdy-15 white-bg rounded mgb-1h5rem">
+                            <div class="jobs--content-up-box flex flex-between flex-wrap">
+                                <div class="jobs--content-up-left-box flex align-center res-div-100">
+                                    <div class="jobs--content-left-avatar twitter shrink-none flex align-center justify-center">
+                                        <i class="fab fa-twitter"></i>
+                                    </div>
+                                    <div class="jobs--content-left-details pdl-15">
+                                        <h6 class="jobs--content-left-heading">Product UX Designer</h6>
+                                        <p class="jobs--content-left-txt line-clamp">Twitter</p>
+                                    </div>
+                                </div>
+                                <div class="jobs--content-up-right-box res-div-100 res-mgt-half-1rem">
+                                    <span class="fw-500">$3,5k</span>
+                                </div>
+                            </div>
+                            <div class="jobs--content-box-description mgy-1rem">We are looking for a UX Designer to design software and platforms, that people's needs. You will combine interfaces and workflows to enhance user experience</div>
+                            <div class="jobs--content-down-box mgt-4 flex align-center flex-between">
+                                <div class="jobs--content-box-tags-list flex align-center flex-wrap pdr-15">
+                                    <span class="jobs--content-box-tag mgt-6 mgb-6 mgr-6">Senior</span>
+                                    <span class="jobs--content-box-tag mgr-6 mgt-6 mgb-6">Figma</span>
+                                    <span class="jobs--content-box-tag mgt-6 mgb-6">Design</span>
+                                </div>
+                                <div class="jobs--content-date-box">12 Jan, 2022</div>
+                            </div>
+                        </div>
+                        <div class="jobs--content-main-box pdx-20 pdy-15 white-bg rounded mgb-1h5rem">
+                            <div class="jobs--content-up-box flex flex-between flex-wrap">
+                                <div class="jobs--content-up-left-box flex align-center res-div-100">
+                                    <div class="jobs--content-left-avatar youtube shrink-none flex align-center justify-center">
+                                        <i class="fab fa-youtube"></i>
+                                    </div>
+                                    <div class="jobs--content-left-details pdl-15">
+                                        <h6 class="jobs--content-left-heading">FIGMA Dev</h6>
+                                        <p class="jobs--content-left-txt line-clamp">Youtube</p>
+                                    </div>
+                                </div>
+                                <div class="jobs--content-up-right-box res-div-100 res-mgt-half-1rem">
+                                    <span class="fw-500">10K</span>
+                                </div>
+                            </div>
+                            <div class="jobs--content-box-description mgy-1rem">Youtube give all you need. All you have to do is to enhance user experience, by combining interfaces that meet people's need. Are you interested?</div>
+                            <div class="jobs--content-down-box mgt-4 flex align-center flex-between">
+                                <div class="jobs--content-box-tags-list flex align-center flex-wrap pdr-15">
+                                    <span class="jobs--content-box-tag mgt-6 mgb-6 mgr-6">Adobe</span>
+                                    <span class="jobs--content-box-tag mgr-6 mgt-6 mgb-6">UI</span>
+                                    <span class="jobs--content-box-tag mgt-6 mgb-6">UX</span>
+                                </div>
+                                <div class="jobs--content-date-box">10 Jan, 2022</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            </div>
+        </section>
+        </main>
+        <!-- ///// footer ///// -->
+        <footer class="w-color long" id="foot" style="padding-top: 20px !important;">
+            <div class="container">
+              <div class="social flex justify-center">
+                <a href="https://github.com/salhi50?tab=repositories" target="_blank"><i class="fab fa-github w-color"></i></a>
+              </div>
+              <div class="copy text-center mgt-1rem p-xsmall pdb-15" style="font-family: 'Poppins', sans-serif; color: #a8a8a8;">made by <i class="fa fa-heart mgx-4" style="color: #d34848;"></i> Salhi</div>
+            </div>
+          </footer>
+    </body>
+  <script src="script.js"></script>
+</html>
